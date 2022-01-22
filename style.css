@@ -1,0 +1,52 @@
+.n-home{
+	opacity: 0;
+	transform: translate(0,-100px);
+	transition: 1s ease all;
+}
+
+.n-home.active{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.n-sarana{
+	opacity: 0;
+	transform: translate(0,-100px);
+	transition: 1s ease all;
+}
+
+.n-sarana.active{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+
+#carouselExampleCaptions{
+	opacity: 0;
+	transform: translate(-700px,0);
+	transition: 3s ease all;
+}
+
+#carouselExampleCaptions.active{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.danau-home{
+	opacity: 0;
+	transform: translate(-100px,0);
+	transition: 3s ease all;
+}
+.danau-home.active{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.video-home{
+	opacity: 0;
+	transform: translate(-100px,0);
+	transition: 3s ease all;
+}
+.video-home.active{
+	opacity: 1;
+	transform: translate(0,0);
+}
